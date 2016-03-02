@@ -1,5 +1,5 @@
 .pure-g {
-    #display: table;
+    display: flex;
 }
 
 div[class *="pure-u"] {
