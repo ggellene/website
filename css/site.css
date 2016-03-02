@@ -1,0 +1,32 @@
+.pure-g {
+    #display: table;
+}
+
+div[class *="pure-u"] {
+    #float: left;
+    #display: table-cell;
+}
+
+.navHeader {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.navMenu {
+    padding-right: .5em;
+    #background-color: #999999;
+}
+
+#sidebar {
+    background-color: #222222;
+}
+
+.navItem > a:hover {
+    border-left-color: #1f8dd6;
+}
+
+.navItem > a {
+    border-left-color: inherit;
+    border-left-style: solid;
+    border-left-width: thick;
+}

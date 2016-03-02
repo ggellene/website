@@ -1,0 +1,20 @@
+{
+  "navigation": [
+    {
+      "url": "/",
+      "label": "Gregory Gellene"
+    },
+    {
+      "url": "/resume",
+      "label": "Resume"
+    },
+    {
+      "url": "/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "/portfolio",
+      "label": "Portfolio"
+    }
+  ]
+}

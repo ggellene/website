@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        block title
+        link(rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/pure-min.css')
+        link(rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
+        link(rel='stylesheet' href='css/site.css')
+        <!--[if lte IE 8]>
+        //link(rel='stylesheet' href='css/layouts/side-menu-old-ie.css')
+        <![endif]-->
+        <!--[if gt IE 8]>
+        //link(rel='stylesheet' href='css/layouts/side-menu.css')
+        <![endif]-->
+    body
+        div.pure-g
+            div#sidebar.pure-u-md-1-6.pure-u-1
+                div.navMenu
+                    each item, index in navigation
+                        if index == 0
+                            div.pure-menu-item.navItem.navHeader: a.pure-menu-link(href=item.url) #{item.label}
+                        else
+                            div.pure-menu-item.navItem: a.pure-menu-link(href=item.url) #{item.label}
+            div.pure-u-md-2-3.pure-u-1.content
+                block content
+            div.pure-u-md-1-6.pure-u-1
+
