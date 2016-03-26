@@ -1,0 +1,28 @@
+{
+  "portfolio": [
+    {
+      "name": "Ark Server Dashboard",
+      "startDate": "2016-02-01",
+      "endDate": "2016-02-27",
+      "vcsUrl": "https://github.com/ggellene/ark-dashboard",
+      "vcsName": "Github",
+      "demoUrl": "http://toolboxgaming.com/ark",
+      "desc": "A web UI which presents some basic information about a game server which implements the steam server protocol, and enables the server to be started on demand by non-admin players. This was my first experience with Express, which was generally pleasant to work with. The app is basically functional at this point, but could benefit from some UX enhancements like progress/loading indicators.",
+      "tech": "Built using Node.js and Express.js to run the application logic. It can run as a self-contained web app. Or, it can instead be configured to generate static content which is suitable to be served by a high performance dedicated web server such as Nginx. Nginx then proxies only the REST endpoints to Express. The app also makes use of the Q.js promise library to simplify asynchronous network and system calls; and uses session keys to enable digest-like hashing to protect passwords in transit and prevent replay attacks on the API, although HTTPS would be recommended as more secure.",
+      "pictures": [
+        {
+          "desc": "Node.js",
+          "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+        },
+        {
+          "desc": "Q.js",
+          "url": "http://kriskowal.github.io/q/q.png"
+        },
+        {
+          "desc": "Steam",
+          "url": "http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png"
+        }
+      ]
+    }
+  ]
+}

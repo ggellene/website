@@ -1,0 +1,42 @@
+//
+   Created by greg on 2/28/16.
+
+mixin project(pr)
+    - var dateStart = moment(pr.startDate)
+    - var dateEnd = moment(pr.endDate)
+    - var dateStartStr = dateStart.format('MMM YYYY')
+    - var dateEndStr = dateEnd.format('MMM YYYY')
+    div.head.pure-u-1
+        if pr.demoUrl
+            span.title #[a(href=pr.demoUrl) #{pr.name}]
+        else
+            span.title #{pr.name}
+    div.left.pure-u-1-8
+        div
+            if dateStartStr == dateEndStr
+                div.date #{dateStartStr}
+            else if pr.endDate
+                div.date #{dateStartStr}
+                | &#32to&#32
+                div.date #{dateEndStr}
+            else
+                | Ongoing from
+                div.date #{dateStartStr}
+            if pr.vcsUrl
+                div Check it out on #[a(href=pr.vcsUrl) #{pr.vcsName}]
+        div
+            each pic in pr.pictures
+                img.icon(src=pic.url alt=pic.desc title=pic.desc)
+    div.right.pure-u-7-8
+        div.description.pure-u-1
+            p #{pr.desc}
+        div.tech.pure-u-1
+            p #{pr.tech}
+
+
+extends layout
+block content
+    - function sameMonth(/*Date*/start, /*Date*/end){ return start.getYear() == end.getYear() && start.getMonth() == end.getMonth();}
+    each item, index in portfolio
+        div.project.pure-u-1
+            +project(item)

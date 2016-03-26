@@ -9,6 +9,8 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "jade": "~1.11.0"
+    "jade": "~1.11.0",
+    "object-assign": "~4.0.1",
+    "moment": "~2.11.2"
   }
 }
