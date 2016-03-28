@@ -16,14 +16,16 @@ html(lang="en")
         <![endif]-->
     body
         div.pure-g
-            div#sidebar.pure-u-md-1-6.pure-u-1
-                div.navMenu
-                    each item, index in navigation
-                        if index == 0
-                            div.pure-menu-item.navItem.navHeader: a.pure-menu-link(href=item.url) #{item.label}
-                        else
-                            div.pure-menu-item.navItem: a.pure-menu-link(href=item.url) #{item.label}
-            div.pure-u-md-2-3.pure-u-1.content
+            div#sidebar.pure-u-1-12
+                a#menuButton(href='#' onclick='toggleMenu()')
+                    span.hamburger
+                div#navMenu.hidden
+                    div
+                        each item, index in navigation
+                            if index == 0
+                                div.pure-menu-item.navItem.navHeader: a.pure-menu-link(href=item.url) #{item.label}
+                            else
+                                div.pure-menu-item.navItem: a.pure-menu-link(href=item.url) #{item.label}
+            div.pure-u-11-12.content
                 block content
-            div.pure-u-md-1-6.pure-u-1
-
+        script(src='js/site.js')
