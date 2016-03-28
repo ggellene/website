@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Gregory Gellene",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "greg.gellene@gmail.com",
+    "phone": "(817) 264-7347",
+    "website": "http://gregorygellene.com",
+    "summary": "I'm an experienced software engineer with a particular focus on quality, testing, and DevOps. I want to grow both personally and as an engineer by working on interesting problems alongside talented people.",
+    "location": {
+      "address": "425 E Harwood Rd #1105",
+      "postalCode": "TX 76039",
+      "city": "Euless",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [{}]
+  },
+  "work": [
+    {
+      "company": "Fidelity Investments",
+      "position": "Senior Software Engineer in Test",
+      "startDate": "2014-06-01",
+      "summary": "At Fidelity, I have taken the lead in building a system of automated functional tests for a number of projects with the goal of integrating these test suites into the projects’ build systems to facilitate Continuous Integration and Continuous Delivery processes.  Throughout my time here I have participated in an Agile process",
+      "highlights": [
+        "Designed and developed page object models for several different projects.",
+        "Integrated E2E functional tests into CI process for several projects.",
+	    "Instituted test case/code reviews for functional test scripts.",
+        "Developed conventions for simple and fluent page object models for consumption by test engineers.",
+        "Advocated for results oriented metrics and developed tools to support them."
+      ]
+    },
+    {
+      "company": "Ambit Energy",
+      "position": "Software Developer in Test",
+      "startDate": "2013-10-01",
+      "endDate": "2014-06-01",
+      "summary": "As a member of the automation team, I worked closely with the QA team to design and develop a proprietary data driven automated testing tool. I also developed and maintained a number of tools used to automate internal business tasks and maintain test data and configurations.",
+      "highlights": [
+        "Developed and helped design a modular, menu-and-data-driven, automated test utility called Testify.",
+        "Developed Testify modules for interacting with Windows UIs, Web UIs, SQL databases, and REST services.",
+        "Integrated with TFS for defect tracking and test case management.",
+        "Served as SME for legacy automated test framework.",
+        "Created several utilities to automate common tasks for internal business users."
+      ]
+    },
+    {
+      "company": "Think Finance",
+      "position": "QA Automation Engineer",
+      "startDate": "2012-06-01",
+      "endDate": "2013-06-01",
+      "summary": "At Think Finance, I implemented an automated testing framework in C# based on the open source tools Fitnesse and Selenium Webdriver.  This framework was used to perform full integration tests of the Think Finance IT SoA platform, as well as E2E functional tests of the line of business applications it supports.",
+      "highlights": [
+        "Implemented the UI and database access components of the test framework using Selenium Webdriver and MS Entity Framework.",
+        "Served as SME for QA teams regarding the automated test framework.",
+        "Shortened test cycles by developing and documenting standards and practices for writing test cases and defects.",
+        "Implemented a full automated functional regression test suite for a loan application processing application."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Texas at Arlington",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "endDate": "2010-05-01",
+      "gpa": "3.2"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Development",
+      "level": "Expert",
+      "keywords": [
+        "C#",
+        ".Net",
+        "Javascript",
+        "Node.js",
+        "SQL",
+        "Regular Expressions"
+      ]
+    },
+    {
+      "name": "Automated Testing",
+      "level": "Master",
+      "keywords": [
+        "Protractor",
+        "Selenium Webdriver",
+        "MS Coded UI",
+        "White Framework",
+        "Jasmine",
+        "MS Test",
+        "Unit, Integration, E2E"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": [
+        "Continuous Integration",
+        "Jenkins",
+        "Git",
+        "Subversion"
+      ]
+    },
+    {
+      "name": "SDLC",
+      "level": "Expert",
+      "keywords": [
+        "TFS",
+        "Atlassian Jira",
+        "Test Case Management",
+        "Agile",
+        "Scrum"
+      ]
+    }
+  ]
+}

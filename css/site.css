@@ -62,7 +62,7 @@
 
 .title {
     font-size: 1.75em;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .title a {
@@ -93,4 +93,141 @@
 
 .icon {
     max-width: 5em;
+}
+
+.res-skill {
+    /* padding: 2px 2px 2px 2px; */
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.res-skill-name {
+    /* padding-top: 3em; */
+    font-size: 1.2em;
+}
+
+.res-keyword {
+    /* color: blue; */
+}
+
+.res-name {
+    /* color: goldenrod; */
+    font-weight: 700;
+    font-size: 2em;
+    /* padding-right: 0.5em; */
+    /* height:10em; */
+    display: inline-block;
+    max-width: calc(50% + .5em);
+}
+
+.res-name::after {
+    content: "";
+    border-right-width: 1px;
+    /* border-right-color: black; */
+    border-right-style: solid;
+    padding-left: 0.5em;
+    height: .5em;
+}
+
+.res-header {
+    padding-bottom: 2em;
+}
+
+.res-title {
+    font-size: 1.75em;
+    display: inline-block;
+    max-width: calc(50% - .5em);
+    margin-left: .5em;
+}
+
+.res-section {
+    padding-top: .25em;
+    padding-bottom: .75em;    
+}
+
+.res-section-header {
+    font-size: 1.75em;
+}
+
+.res-contact-label {
+    /* width: 100px; */
+    /* color:  red; */
+    float: left;
+    padding-right: 0;
+    min-width: 4.5em;
+}
+
+.res-date {
+    float: right;
+    font-size: initial;
+    display: inline-block;
+    width: inherit;
+    text-align: right;
+}
+
+.res-summary {
+    clear: both;
+}
+
+.res-company,
+.res-edu-school {
+    font-size: 1.2em;
+}
+
+.res-position {
+    color: cream;
+    /* font-weight: 500; */
+    /* text-transform: uppercase; */
+    /* color: cornflowerblue; */
+    font-size: 1.1em;
+    /* display: inline-block; */
+    /* padding-bottom: 1px; */
+    /* border-bottom: thin dotted; */
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.res-subheader {
+    font-weight: 500;
+    font-size: 1.25em;
+    display: inline-block;
+    margin-bottom: 3px;
+    /* text-decoration: underline; */
+    /* background-color: lightgray; */
+}
+
+.res-subheader::after {
+    content: "";
+    /* float: left; */
+    border-bottom-style: solid;
+    width: inherit;
+    border-bottom-width: thin;
+    /* bottom: inherit; */
+    border-bottom-color: cornflowerblue;
+    /* height: 1px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    display: block;
+    background-color: transparent;
+}
+
+ul {
+    padding-left: calc(.75em + 5px)
+}
+
+li {
+    /* color: orangered; */
+    list-style-image: none;
+    list-style-type: none;
+}
+
+li:before {
+    content: '';
+    width: 5px;
+    height: 1px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    position: relative;
+    transform: translateY(-.25em) translateX(-.75em);
+    margin-left: -5px;
 }
