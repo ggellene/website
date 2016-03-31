@@ -2,19 +2,19 @@
   "navigation": [
     {
       "url": "/",
-      "label": "Gregory Gellene"
+      "label": "Home"
     },
     {
       "url": "/resume",
-      "label": "Resume"
-    },
-    {
-      "url": "/blog",
-      "label": "Blog"
+      "label": "Resumé"
     },
     {
       "url": "/portfolio",
       "label": "Portfolio"
+    },
+    {
+      "url": "/blog",
+      "label": "Blog"
     }
   ]
 }
