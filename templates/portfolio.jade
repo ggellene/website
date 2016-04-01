@@ -7,10 +7,7 @@ mixin project(pr)
     - var dateStartStr = dateStart.format('MMM YYYY')
     - var dateEndStr = dateEnd.format('MMM YYYY')
     div.head.pure-u-1
-        if pr.demoUrl
-            span.title #[a(href=pr.demoUrl) #{pr.name}]
-        else
-            span.title #{pr.name}
+            span.bigheader #{pr.name}
     div.left.pure-u-1-8
         div
             if dateStartStr == dateEndStr
@@ -24,6 +21,8 @@ mixin project(pr)
                 div.date #{dateStartStr}
             if pr.vcsUrl
                 div Check it out on #[a(href=pr.vcsUrl) #{pr.vcsName}]
+                    if pr.demoUrl
+                        div See a live #[a(href=pr.demoUrl) demo]
         div
             each pic in pr.pictures
                 img.icon(src=pic.url alt=pic.desc title=pic.desc)

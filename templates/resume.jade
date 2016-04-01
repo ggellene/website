@@ -5,7 +5,7 @@ mixin work(item)
     - var dateStart = moment(item.startDate)
     - var dateStartStr = dateStart.format('MM/YYYY')
     div.res-work
-        div: span.res-company.res-subheader #{item.company}
+        div: span.res-company.subheader #{item.company}
             //span &#32:&#32
         span.res-position #{item.position}
         if item.endDate
@@ -21,7 +21,7 @@ mixin skill(item, col)
     - var c = "pure-u-md-1-" + col
     div.pure-u-1(class=c)
         div.res-skill
-            span.res-skill-name.res-subheader #{item.name}&#32
+            span.res-skill-name.subheader #{item.name}&#32
             //span.res-skill-level #{item.level}&#32
             div
                 each key, index in item.keywords
@@ -32,7 +32,7 @@ mixin skill(item, col)
 
 mixin edu(item)
     div
-        span.res-edu-school.res-subheader #{item.institution}
+        span.res-edu-school.subheader #{item.institution}
     div
         span.res-edu-degree #{item.studyType},&#32
         span.res-edu-major #{item.area}

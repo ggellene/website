@@ -209,14 +209,23 @@
     display: inline-block;
 }
 
-.res-subheader {
-    font-weight: 500;
+.bigheader {
+    font-size: 1.75em;
+}
+
+.subheader {
     font-size: 1.25em;
+}
+
+.bigheader,
+.subheader {
+    font-weight: 500;
     display: inline-block;
     margin-bottom: 3px;
 }
 
-.res-subheader::after {
+.bigheader::after,
+.subheader::after {
     content: "";
     border-bottom-style: solid;
     width: inherit;
