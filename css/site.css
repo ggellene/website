@@ -132,6 +132,7 @@
 
 .icon {
     max-width: 5em;
+    width: inherit;
 }
 
 .res-skill {
@@ -149,15 +150,16 @@
     font-weight: 700;
     font-size: 2em;
     display: inline-block;
-    max-width: calc(50% + .5em);
+    max-width: calc(50% + .55em);
 }
 
 .res-name::after {
     content: "";
     border-right-width: 1px;
     border-right-style: solid;
-    padding-left: 0.5em;
-    height: .5em;
+    margin: 0 .5em;
+    height: 1em;
+    position: relative;
 }
 
 .res-header {
@@ -167,8 +169,7 @@
 .res-title {
     font-size: 1.75em;
     display: inline-block;
-    max-width: calc(50% - .5em);
-    margin-left: .5em;
+    max-width: calc(50% - .1em);
 }
 
 .res-section {
@@ -272,9 +273,7 @@ li:before {
     display: inline-flex;
     margin-left: 3.5em;
     margin-right: 3.5em;
-    overflow: visible;
-    box-sizing: border-box;
-    /* text-decoration: none; */
+    overflow: auto;
 }
 
 .navLink {
@@ -282,15 +281,44 @@ li:before {
     border: solid thin;
     padding: .2em 1em;
     text-decoration: inherit;
+    box-sizing: content-box;
 }
 
 .headerContent,
 .titleContent {
-    /* color: black; */
     text-align: center;
 }
 
 .head-name {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+@media screen and (max-width: 55em){
+    .navItem {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+}
+
+@media screen and (max-width: 38.75em){
+    .navItem {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+}
+
+@media screen and (max-width: 31.25em){
+    .navItem {
+        display: block;
+    }
+    .navLink {
+        box-sizing: initial;
+        display: inline-block;
+        margin: .1em .5em;
+        width: calc(100% - 4em);
+    }
+    .header, .content {
+        padding: 0;
+    }
 }
