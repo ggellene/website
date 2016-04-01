@@ -14,8 +14,8 @@ mixin work(item)
             span.res-date #{dateStartStr} to present
         div: span.res-summary #{item.summary}
         div: ul
-                each point in item.highlights
-                    li #{point}
+            each point in item.highlights
+                li #{point}
 
 mixin skill(item, col)
     - var c = "pure-u-md-1-" + col
@@ -42,12 +42,14 @@ mixin edu(item)
 
 extends layout
 block content
+block export
     div.pure-u-1.res-header
         span.res-name #{basics.name}
         span.res-title #{basics.label}
     div.res-section
         div.pure-u-lg-1-6.pure-u-1.res-section-header
             span Contact
+    block contact
         div.pure-u-lg-5-6.pure-u-1.res-section-content
             if basics.email
                 div
