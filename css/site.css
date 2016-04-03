@@ -1,18 +1,3 @@
-:root {
-    --bg-dark: #222222;
-    --bg-light: #ffffff;
-    --bg-mid: #090909;
-    --text-dark: #000000;
-    --text-mid: #444444;
-    --text-light: #cccccc;
-    --accent-bright: blue;
-    --accent-bold: navy;
-    --accent-calm: cream;
-    --link-main: blue;
-    --link-main-visited: purple;
-    --link-accent: gray;
-}
-
 .pure-g {
     display: flex;
     flex-wrap: wrap;
@@ -117,9 +102,6 @@
 .content a {
     color: cornflowerblue;
     font-family: sans-serif;
-    border-bottom: cornflowerblue;
-    #border-bottom-style: medium;
-    border-bottom-width: medium;
 }
 
 .date {
@@ -262,8 +244,6 @@ li:before {
 
 .navBar {
     background-color: cornflowerblue;
-    /* height: 2em; */
-    /* padding-top: 1em; */
     padding-bottom: 1em;
     text-align: center;
 }
@@ -276,14 +256,6 @@ li:before {
     overflow: auto;
 }
 
-.navLink {
-    color: inherit;
-    border: solid thin;
-    padding: .2em 1em;
-    text-decoration: inherit;
-    box-sizing: content-box;
-}
-
 .headerContent,
 .titleContent {
     text-align: center;
@@ -292,6 +264,32 @@ li:before {
 .head-name {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.exMenu {
+    text-align: center;
+}
+
+.exMenuItem {
+    padding: 0 .5em;
+    text-align: center;
+    margin: .5em 1em 0;
+    display: inline-block;
+}
+
+#export {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 0 1.5em 0;
+}
+
+.button {
+    color: inherit;
+    border: solid thin;
+    padding: .2em 1em;
+    text-decoration: inherit;
+    box-sizing: content-box;
 }
 
 @media screen and (max-width: 55em){
