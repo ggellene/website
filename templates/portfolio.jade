@@ -35,7 +35,13 @@ mixin project(pr)
 
 extends layout
 block content
-    - function sameMonth(/*Date*/start, /*Date*/end){ return start.getYear() == end.getYear() && start.getMonth() == end.getMonth();}
-    each item, index in portfolio
-        div.project.pure-u-1
-            +project(item)
+    div.pure-u-1.content
+        - function sameMonth(/*Date*/start, /*Date*/end){ return start.getYear() == end.getYear() && start.getMonth() == end.getMonth();}
+        each item, index in portfolio
+            div.project.pure-u-1
+                +project(item)
+
+block header
+    div.pure-u-1.header
+        block navigation
+            include ./navigation.jade

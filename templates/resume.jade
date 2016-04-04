@@ -1,5 +1,8 @@
 extends printResume
 
+block viewport
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+
 block export
     div#export
         div Export a copy
@@ -19,3 +22,8 @@ block contact
         div
             label.res-contact-label Website
             span: a(href=basics.website) #{basics.website}
+
+block header
+    div.pure-u-1.header
+        block navigation
+            include ./navigation.jade

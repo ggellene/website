@@ -156,11 +156,15 @@
 
 .res-section {
     padding-top: .25em;
-    padding-bottom: .75em;    
+    padding-bottom: .75em;
 }
 
 .res-section-header {
     font-size: 1.75em;
+}
+
+.res-section-content {
+    page-break-inside: auto;
 }
 
 .res-contact-label {
@@ -171,7 +175,7 @@
 
 .res-date {
     float: right;
-    font-size: initial;
+    #font-size: initial;
     display: inline-block;
     width: inherit;
     text-align: right;
@@ -318,5 +322,20 @@ li:before {
     }
     .header, .content {
         padding: 0;
+    }
+}
+
+@media print{
+    .content{
+        background-color: initial;
+        padding: 0;
+        margin: 0;
+        font-size: .6em;
+    }
+    .res-section-content {
+        display: block;
+    }
+    .res-work{
+        page-break-before: auto;
     }
 }

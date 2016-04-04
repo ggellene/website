@@ -1,15 +1,16 @@
 extends layout
 
 block header
-    div.headerContent
-        h1.head-name Gregory Gellene
+    div.pure-u-1.header
+        div.headerContent
+            h1.head-name Gregory Gellene
+        block navigation
+            div#titleNav
+                include ./navigation.jade
 
 block content
-    div.pure-u-1.titleContent
-        p I am—among other things—a software engineer.
-        p This means I ponder really big questions. Questions like: how to get other developers to value having unit tests? How to get product owners to value having unit tests? How best to measure the harm a project suffers from a lack of unit tests? Has there ever been a less helpful exception message than "undefined is not a function"?
-        p Sometimes I even write code. And unit tests. And blog articles.
-
-block navigation
-    div#titleNav
-        include ./navigation.jade
+    div.pure-u-1.content
+        div.pure-u-1.titleContent
+            p I am—among other things—a software engineer.
+            p This means I ponder really big questions. Questions like: how to get other developers to value having unit tests? How to get product owners to value having unit tests? How best to measure the harm a project suffers from a lack of unit tests? Has there ever been a less helpful exception message than "undefined is not a function"?
+            p Sometimes I even write code. And unit tests. And blog articles.

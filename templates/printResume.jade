@@ -41,52 +41,58 @@ mixin edu(item)
 
 
 extends layout
+block header
+
+block viewport
+    meta(name='viewport' content='width=device-width, initial-scale=0.8')
+
 block content
-    block export
-    div.pure-u-1.res-header
-        span.res-name #{basics.name}
-        span.res-title #{basics.label}
-    div.res-section
-        div.pure-u-lg-1-6.pure-u-1.res-section-header
-            span Contact
-        block contact
+    div.pure-u-1.content
+        block export
+        div.pure-u-1.res-header
+            span.res-name #{basics.name}
+            span.res-title #{basics.label}
+        div.res-section
+            div.pure-u-lg-1-6.pure-u-1.res-section-header
+                span Contact
+            block contact
+                div.pure-u-lg-5-6.pure-u-1.res-section-content
+                    if basics.email
+                        div
+                            label.res-contact-label Email
+                            span #{basics.email}
+                    if basics.phone
+                        div
+                            label.res-contact-label Phone
+                            span #{basics.phone}
+                    if basics.website
+                        div
+                            label.res-contact-label Website
+                            span: a(href=basics.website) #{basics.website}
+        div.res-section
+            div.pure-u-lg-1-6.pure-u-1.res-section-header
+                span About
             div.pure-u-lg-5-6.pure-u-1.res-section-content
-                if basics.email
-                    div
-                        label.res-contact-label Email
-                        span #{basics.email}
-                if basics.phone
-                    div
-                        label.res-contact-label Phone
-                        span #{basics.phone}
-                if basics.website
-                    div
-                        label.res-contact-label Website
-                        span: a(href=basics.website) #{basics.website}
-    div.res-section
-        div.pure-u-lg-1-6.pure-u-1.res-section-header
-            span About
-        div.pure-u-lg-5-6.pure-u-1.res-section-content
-            span #{basics.summary}
-    div.res-section
-        div.pure-u-lg-1-6.pure-u-1.res-section-header
-            span Skills
-        div.pure-u-lg-5-6.pure-u-1.res-section-content
-            if skills.length >= 6
-                - var col = 3
-            else
-                - var col = 2
-            each item, index in skills
-                +skill(item, col)
-    div.res-section
-        div.pure-u-lg-1-6.pure-u-1.res-section-header
-            span Experience
-        div.pure-u-lg-5-6.pure-u-1.res-section-content
-            each item, index in work
-                +work(item)
-    div.res-section
-        div.pure-u-lg-1-6.pure-u-1.res-section-header
-            span Education
-        div.pure-u-lg-5-6.pure-u-1.res-section-content
-            each item in education
-                +edu(item)
+                span #{basics.summary}
+        div.res-section
+            div.pure-u-lg-1-6.pure-u-1.res-section-header
+                span Skills
+            div.pure-u-lg-5-6.pure-u-1.res-section-content
+                if skills.length >= 6
+                    - var col = 3
+                else
+                    - var col = 2
+                each item, index in skills
+                    +skill(item, col)
+        div.res-section
+            div.pure-u-lg-1-6.pure-u-1.res-section-header
+                span Experience
+            div.pure-u-lg-5-6.pure-u-1.res-section-content
+                each item, index in work
+                    +work(item)
+        div.res-section
+            div.pure-u-lg-1-6.pure-u-1.res-section-header
+                span Education
+            div.pure-u-lg-5-6.pure-u-1.res-section-content
+                each item in education
+                    +edu(item)
