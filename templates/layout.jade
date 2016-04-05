@@ -6,11 +6,12 @@ html(lang="en")
             meta(name='viewport' content='width=device-width, initial-scale=1.0')
         block title
             title Gregory Gellene
-        link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css')
-        link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
-        link(href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css')
-        link(rel='stylesheet' href='css/site.css')
+        block sheets
+            link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css')
+            link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
+            link(href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css')
+            link(href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css')
+            link(rel='stylesheet' href='css/site.css')
     body
         div.pure-g
             block header
@@ -19,4 +20,3 @@ html(lang="en")
                         include ./navigation.jade
             block content
                 div.pure-u-1.content
-        script(src='js/site.js')

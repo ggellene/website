@@ -296,6 +296,10 @@ li:before {
     box-sizing: content-box;
 }
 
+#header{
+    display: none;
+}
+
 @media screen and (max-width: 55em){
     .navItem {
         margin-left: 1.5em;
