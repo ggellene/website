@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:inline": "./node_modules/.bin/html-inline -i public/export/printResume.html -o public/export/resume.html",
+    "build:templates": "node index.js",
+    "build:pdf": "node scripts/buildPdf.js",
+    "build:all": "npm run build:templates && npm run build:inline && npm run build:pdf"
   },
   "author": "",
   "license": "BSD",
@@ -12,10 +16,8 @@
     "jade": "~1.11.0",
     "object-assign": "~4.0.1",
     "moment": "~2.11.2",
-    "markdown": "~0.5.0"
-  },
-  "devDependencies": {
-    "shelljs": "~0.6.0",
-    "marked": "~0.3.5"
+    "html-pdf": "~2.0.1",
+    "html-inline": "~1.1.1",
+    "shelljs": "~0.6.0"
   }
 }

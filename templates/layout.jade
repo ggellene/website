@@ -2,25 +2,21 @@ doctype html
 html(lang="en")
     head
         meta(charset='utf-8')
-        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        block viewport
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
         block title
-        link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css')
-        link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
-        link(href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css')
-        link(rel='stylesheet' href='css/site.css')
-        <!--[if lte IE 8]>
-        //link(rel='stylesheet' href='css/layouts/side-menu-old-ie.css')
-        <![endif]-->
-        <!--[if gt IE 8]>
-        //link(rel='stylesheet' href='css/layouts/side-menu.css')
-        <![endif]-->
+            title Gregory Gellene
+        block sheets
+            link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css')
+            link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
+            link(href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css')
+            link(href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css')
+            link(rel='stylesheet' href='css/site.css')
     body
         div.pure-g
-            div.pure-u-1.header
-                block header
-                block navigation
-                    include ./navigation.jade
-            div.pure-u-1.content
-                block content
-        script(src='js/site.js')
+            block header
+                div.pure-u-1.header
+                    block navigation
+                        include ./navigation.jade
+            block content
+                div.pure-u-1.content
