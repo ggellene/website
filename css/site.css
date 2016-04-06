@@ -296,6 +296,12 @@ li:before {
     box-sizing: content-box;
 }
 
+.button.disabled {
+    color: darkgray;
+    pointer-events: none;
+    cursor: default;
+}
+
 #header{
     display: none;
 }

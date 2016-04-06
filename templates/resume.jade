@@ -3,13 +3,20 @@ extends printResume
 block viewport
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
 
+block sheets
+    link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css')
+    link(rel='stylesheet' href='https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
+    link(href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css')
+    link(rel='stylesheet' href='css/site.css')
+
 block export
     div#export
         div Export a copy
         span.exMenuItem: a.button(href="/export/resume.html") html
         span.exMenuItem: a.button(href="/export/resume.pdf") pdf
-        span.exMenuItem: a.button(href="/export/resume.txt") txt
-        span.exMenuItem: a.button(href="/export/resume.docx") word
+        span.exMenuItem: a.button.disabled(href="/export/resume.txt") txt
+        span.exMenuItem: a.button.disabled(href="/export/resume.docx") word
 
 block contact
     div.pure-u-lg-5-6.pure-u-1.res-section-content
