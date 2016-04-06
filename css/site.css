@@ -282,10 +282,6 @@ li:before {
     display: inline-block;
 }
 
-.head-name.pipe-after::after{
-    display: none;
-}
-
 .exMenu {
     text-align: center;
 }
@@ -326,6 +322,12 @@ li:before {
     .navItem {
         margin-left: 1.5em;
         margin-right: 1.5em;
+    }
+    .head-name.pipe-after::after{
+        display: none;
+    }
+    .head-title{
+        display: block;
     }
 }
 
