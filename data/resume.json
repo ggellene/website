@@ -23,6 +23,7 @@
       "startDate": "2014-06-01",
       "summary": "At Fidelity, I have taken the lead in building a system of automated functional tests for a number of projects with the goal of integrating these test suites into the projects’ build systems to facilitate Continuous Integration and Continuous Delivery processes.  Throughout my time here I have participated in an Agile process",
       "highlights": [
+        "Built and tested streaming data app using Node.js, Angular, Express, and React",
         "Designed and developed page object models for several different projects.",
         "Integrated E2E functional tests into CI process for several projects.",
 	    "Instituted test case/code reviews for functional test scripts.",
