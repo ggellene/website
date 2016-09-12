@@ -23,6 +23,42 @@
           "url": "http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png"
         }
       ]
+    },
+    {
+      "name": "Require-with",
+      "startDate": "2016-06-01",
+      "endDate": "2016-06-08",
+      "vcsUrl": "https://github.com/ggellene/require-with",
+      "vcsName": "Github",
+      "demoUrl": "https://www.npmjs.com/package/require-with",
+      "desc": "A drop-in dependency injection module for Node.js. The goal is to remain stylistically similar to the ordinary Node Require method. It is especially well suited for use within tests or to quickly experiment with alternative libraries.",
+      "tech": "The project has essentially no dependencies of its own outside of Node.js built-ins. The basic premise is to load files and eval them in a sand-boxed context. Some additional logic goes into intercepting other calls to require(), and to resolving relative paths appropriately.",
+      "pictures": [
+        {
+          "desc": "Node.js",
+          "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+        }
+      ]
+    },
+    {
+      "name": "Request-as-Promise",
+      "startDate": "2016-08-23",
+      "endDate": "2016-09-07",
+      "vcsUrl": "https://github.com/ggellene/request-as-promised",
+      "vcsName": "Github",
+      "demoUrl": "https://www.npmjs.com/package/request-as-promise",
+      "desc": "A wrapper for the popular Node.js Request module that converts it to a promise pattern. For scenarios where streaming isn't appropriate, I fell promises are the most sensible pattern for managing most asynchronous processing.",
+      "tech": "The promises are created by the excellent Q.js module. The other major project which does this wrapping relies on Bluebird. This provides an alternative for projects where Q is the pre-existing promise library.",
+      "pictures": [
+        {
+          "desc": "Node.js",
+          "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+        },
+        {
+          "desc": "Q.js",
+          "url": "http://kriskowal.github.io/q/q.png"
+        }
+      ]
     }
   ]
 }

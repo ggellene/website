@@ -198,6 +198,7 @@
 
 .bigheader {
     font-size: 1.75em;
+    margin-top: .8em;
 }
 
 .subheader {
@@ -209,6 +210,7 @@
     font-weight: 500;
     display: inline-block;
     margin-bottom: 3px;
+    margin-top: .8em;
 }
 
 .bigheader::after,
