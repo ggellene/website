@@ -21,10 +21,10 @@
       "company": "Fidelity Investments",
       "position": "Senior Software Engineer",
       "startDate": "2016-02-01",
-      "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members.",
+      "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with Javascript on both the browser and server.",
       "highlights": [
         "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development ans support after release.",
-        "Worked with Angular, Node.js, and Angular Reactive Extensions.",
+        "Worked with Angular, Angular Reactive Extensions, Node.js, and Express.",
         "Maintained greater than 90% test coverage for these projects.",
         "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
         "Estimated scope of stories and worked with the team to share work and meet sprint goals.",
