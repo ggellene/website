@@ -8,9 +8,9 @@
     "website": "http://gregorygellene.com",
     "summary": "I'm an experienced software engineer with a particular focus on quality, testing, and DevOps. I want to grow both personally and as an engineer by working on interesting problems alongside talented people.",
     "location": {
-      "address": "425 E Harwood Rd #1105",
-      "postalCode": "TX 76039",
-      "city": "Euless",
+      "address": "2241 Tiffany Glenn Ct",
+      "postalCode": "TX 76021",
+      "city": "Bedford",
       "countryCode": "US",
       "region": "Texas"
     },
@@ -19,15 +19,30 @@
   "work": [
     {
       "company": "Fidelity Investments",
+      "position": "Senior Software Engineer",
+      "startDate": "2016-02-01",
+      "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members.",
+      "highlights": [
+        "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development ans support after release.",
+        "Worked with Angular, Node.js, and Angular Reactive Extensions.",
+        "Maintained greater than 90% test coverage for these projects.",
+        "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
+        "Estimated scope of stories and worked with the team to share work and meet sprint goals.",
+        "Promoted best practices using functional techniques and MVVM design patterns.",
+        "Configured the build process including continuous build and test pipeline."
+      ]
+    },
+    {
+      "company": "Fidelity Investments",
       "position": "Senior Software Engineer in Test",
       "startDate": "2014-06-01",
-      "summary": "At Fidelity, I have taken the lead in building a system of automated functional tests for a number of projects with the goal of integrating these test suites into the projects’ build systems to facilitate Continuous Integration and Continuous Delivery processes.  Throughout my time here I have participated in an Agile process",
+      "endDate": "2016-02-01",
+      "summary": "As an SET, I have taken the lead in building a system of automated functional tests for a number of projects with the goal of integrating these test suites into the projects’ build systems to facilitate Continuous Integration and Continuous Delivery processes.  Throughout my time here I have participated in an Agile process",
       "highlights": [
-        "Built and tested streaming data app using Node.js, Angular, Express, and React",
-        "Designed and developed page object models for several different projects.",
+        "Designed and developed page object models for several different projects in C# and Node.js.",
         "Integrated E2E functional tests into CI process for several projects.",
 	    "Instituted test case/code reviews for functional test scripts.",
-        "Developed conventions for simple and fluent page object models for consumption by test engineers.",
+        "Developed conventions for simple and fluent page object models to be consumed by test engineers.",
         "Advocated for results oriented metrics and developed tools to support them."
       ]
     },
