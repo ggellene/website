@@ -20,7 +20,7 @@
     {
       "company": "Parkhub",
       "position": "Senior Software Engineer",
-      "startDate": "2016-03-01",
+      "startDate": "2017-03-01",
       "summary": "At Parkhub, I'm building the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I work with IoT sensors, Computer Vision systems, microservices, and mobile-first offline-first applications.",
       "highlights": [
         "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
@@ -35,7 +35,7 @@
       "company": "Fidelity Investments",
       "position": "Senior Software Engineer",
       "startDate": "2016-02-01",
-      "endDate": "2016-03-01",
+      "endDate": "2017-03-01",
       "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with Javascript on both the browser and server.",
       "highlights": [
         "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development ans support after release.",
