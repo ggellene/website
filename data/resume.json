@@ -21,11 +21,11 @@
       "company": "Parkhub",
       "position": "Senior Software Engineer",
       "startDate": "2017-03-01",
-      "summary": "At Parkhub, I'm building the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I work with IoT sensors, Computer Vision systems, microservices, and mobile-first offline-first applications.",
+      "summary": "At Parkhub, I'm building the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I work with IoT sensors, microservices, and mobile-first offline-first applications.",
       "highlights": [
         "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
         "Created a new architecture based on microservices. The architecture is deployed in Docker containers using Kubernetes for orchestration. It uses an event sourced model powered by Kafka, with individual services built in a myriad of technologies.",
-        "Worked with backend technologies including Node.JS, C#/.NET Core, Java 8, GraphQL, Mongo, Postgres, and others",
+        "Worked with backend technologies including Node.JS, C#/.NET Core, GraphQL, Mongo, Postgres, and others",
         "Enhanced CI pipelines to be faster and more reliable while producing better metadata and more clear explanations of failures during build, test, and deployment phases.",
         "Worked in a Scrum-like process. Collaborated on requirements gathering and story design. Provided estimates for planned stories. Worked within 2-week sprint cycles.",
         "Promoted a reactive software architecture which mirrors the core event stream of the underlying infrastructure."
@@ -34,31 +34,20 @@
     {
       "company": "Fidelity Investments",
       "position": "Senior Software Engineer",
-      "startDate": "2016-02-01",
+      "startDate": "2014-06-01",
       "endDate": "2017-03-01",
       "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with Javascript on both the browser and server.",
       "highlights": [
         "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development ans support after release.",
-        "Worked with Angular, Angular Reactive Extensions, Node.js, and Express.",
+        "Worked with C#, Angular, Angular Reactive Extensions, Node.js, and Express.",
         "Maintained greater than 90% test coverage for these projects.",
         "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
         "Estimated scope of stories and worked with the team to share work and meet sprint goals.",
         "Promoted best practices using functional techniques and MVVM design patterns.",
-        "Configured the build process including continuous build and test pipeline."
-      ]
-    },
-    {
-      "company": "Fidelity Investments",
-      "position": "Senior Software Engineer in Test",
-      "startDate": "2014-06-01",
-      "endDate": "2016-02-01",
-      "summary": "As an SET, I have taken the lead in building a system of automated functional tests for a number of projects with the goal of integrating these test suites into the projects’ build systems to facilitate Continuous Integration and Continuous Delivery processes.  Throughout my time here I have participated in an Agile process",
-      "highlights": [
-        "Designed and developed page object models for several different projects in C# and Node.js.",
+        "Configured the build process including continuous build and test pipeline.",
+        "Transitioned from SET to Software Engineer in Feb 2016.",
         "Integrated E2E functional tests into CI process for several projects.",
-	    "Instituted test case/code reviews for functional test scripts.",
-        "Developed conventions for simple and fluent page object models to be consumed by test engineers.",
-        "Advocated for results oriented metrics and developed tools to support them."
+        "Developed conventions for simple and fluent page object models to be consumed by test engineers."
       ]
     },
     {
