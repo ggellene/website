@@ -367,5 +367,6 @@ li:before {
     }
     .res-work{
         page-break-before: auto;
+        page-break-inside: avoid;
     }
 }
