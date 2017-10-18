@@ -21,14 +21,16 @@
       "company": "Parkhub",
       "position": "Senior Software Engineer",
       "startDate": "2017-03-01",
-      "summary": "At Parkhub, I'm building the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I work with IoT sensors, microservices, and mobile-first offline-first applications.",
+      "endDate": "2017-09-01",
+      "summary": "At Parkhub, I built the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I worked with IoT sensors, microservices, and mobile-first offline-first applications.",
       "highlights": [
         "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
-        "Created a new architecture based on microservices. The architecture is deployed in Docker containers using Kubernetes for orchestration. It uses an event sourced model powered by Kafka, with individual services built in a myriad of technologies.",
+        "Created a new architecture based on microservices. The architecture is deployed in Docker containers using Kubernetes for orchestration. It uses an event sourced model powered by Kafka, with individual services built primarily in Node.JS.",
         "Worked with backend technologies including Node.JS, C#/.NET Core, GraphQL, Mongo, Postgres, and others",
+        "Worked with Javascript frameworks, primarily React, Redux, and RxJS.",
         "Enhanced CI pipelines to be faster and more reliable while producing better metadata and more clear explanations of failures during build, test, and deployment phases.",
         "Worked in a Scrum-like process. Collaborated on requirements gathering and story design. Provided estimates for planned stories. Worked within 2-week sprint cycles.",
-        "Promoted a reactive software architecture which mirrors the core event stream of the underlying infrastructure."
+        "Promoted a reactive software architecture which reflects the core event stream of the underlying infrastructure."
       ]
     },
     {
