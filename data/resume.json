@@ -18,6 +18,20 @@
   },
   "work": [
     {
+      "company": "Allegro Development",
+      "position": "Principal Software Engineer",
+      "startDate": "2017-11-01",
+      "summary": "At Allegro I have lead an overseas team in designing and building new features for Allegro's main product, Horizon. I also have advanced best practices including unit testing and devops.",
+      "highlights": [
+        "Designed and implemented scripting and automation features in the application. These are used by external clients to ensure data integrity and internally by QA and consultants to speed up onboarding and upgrade services.",
+        "Worked primarily with C# and MS SQL Server.",
+        "Mentored junior developers on design principles and best practices.",
+        "Worked with product managers and development directors to understand product requirements from both internal and external users.",
+        "Enhanced CI/CD pipelines to be faster, more consistent, and remove manual operations",
+        "Improved the packaging and deployment process for development builds to remove manual operations and enable CI/CD."
+      ]
+    },
+    {
       "company": "Parkhub",
       "position": "Senior Software Engineer",
       "startDate": "2017-03-01",
