@@ -13,7 +13,12 @@
       "countryCode": "US",
       "region": "Texas"
     },
-    "profiles": [{}]
+    "website": "https://jenniferplusplus.com",
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "jenniferpluplus",
+      "url": "https://linkedin.com/in/jenniferplusplus"
+    }]
   },
   "work": [
     {
