@@ -4,7 +4,7 @@
       "name": "Ark Server Dashboard",
       "startDate": "2016-02-01",
       "endDate": "2016-02-27",
-      "vcsUrl": "https://github.com/ggellene/ark-dashboard",
+      "vcsUrl": "https://github.com/jenniferplusplus/ark-dashboard",
       "vcsName": "Github",
       "demoUrl": "http://toolboxgaming.com/ark",
       "desc": "A web UI which presents some basic information about a game server which implements the steam server protocol, and enables the server to be started on demand by non-admin players. This was my first experience with Express, which was generally pleasant to work with. The app is basically functional at this point, but could benefit from some UX enhancements like progress/loading indicators.",
@@ -13,14 +13,6 @@
         {
           "desc": "Node.js",
           "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
-        },
-        {
-          "desc": "Q.js",
-          "url": "http://kriskowal.github.io/q/q.png"
-        },
-        {
-          "desc": "Steam",
-          "url": "http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png"
         }
       ]
     },
@@ -28,7 +20,7 @@
       "name": "Require-with",
       "startDate": "2016-06-01",
       "endDate": "2016-06-08",
-      "vcsUrl": "https://github.com/ggellene/require-with",
+      "vcsUrl": "https://github.com/jenniferplusplus/require-with",
       "vcsName": "Github",
       "demoUrl": "https://www.npmjs.com/package/require-with",
       "desc": "A drop-in dependency injection module for Node.js. The goal is to remain stylistically similar to the ordinary Node Require method. It is especially well suited for use within tests or to quickly experiment with alternative libraries.",
@@ -44,7 +36,7 @@
       "name": "Request-as-Promise",
       "startDate": "2016-08-23",
       "endDate": "2016-09-07",
-      "vcsUrl": "https://github.com/ggellene/request-as-promised",
+      "vcsUrl": "https://github.com/jenniferplusplus/request-as-promised",
       "vcsName": "Github",
       "demoUrl": "https://www.npmjs.com/package/request-as-promise",
       "desc": "A wrapper for the popular Node.js Request module that converts it to a promise pattern. For scenarios where streaming isn't appropriate, I fell promises are the most sensible pattern for managing most asynchronous processing.",
@@ -53,10 +45,6 @@
         {
           "desc": "Node.js",
           "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
-        },
-        {
-          "desc": "Q.js",
-          "url": "http://kriskowal.github.io/q/q.png"
         }
       ]
     }
