@@ -28,12 +28,11 @@
       "endDate": "2018-09-01",
       "summary": "At Allegro I have lead an overseas team in designing and building new features for Allegro's main product, Horizon. I also have advanced best practices including unit testing and devops.",
       "highlights": [
-        "Designed and implemented scripting and automation features in the application. These are used by external clients to ensure data integrity and internally by QA and consultants to speed up onboarding and upgrade services.",
+        "Designed and implemented scripting and automation features in the application. These are used by external clients to ensure data integrity and internally by QA and client services.",
         "Worked primarily with C# and MS SQL Server.",
         "Mentored junior developers on design principles and best practices.",
         "Worked with product managers and development directors to understand product requirements from both internal and external users.",
-        "Enhanced CI/CD pipelines to be faster, more consistent, and remove manual operations",
-        "Improved the packaging and deployment process for development builds to remove manual operations and enable CI/CD."
+        "Improved the packaging and deployment process for development builds to remove manual operations and facilitate CI/CD."
       ]
     },
     {
@@ -57,31 +56,27 @@
       "position": "Senior Software Engineer",
       "startDate": "2014-06-01",
       "endDate": "2017-03-01",
-      "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with Javascript on both the browser and server.",
+      "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with AngularJS and NodeJS.",
       "highlights": [
         "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development ans support after release.",
         "Worked with C#, Angular, Angular Reactive Extensions, Node.js, and Express.",
         "Maintained greater than 90% test coverage for these projects.",
         "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
-        "Estimated scope of stories and worked with the team to share work and meet sprint goals.",
+        "Estimated scope of stories and collaborated with the team to share work and meet sprint goals.",
         "Promoted best practices using functional techniques and MVVM design patterns.",
-        "Configured the build process including continuous build and test pipeline.",
-        "Transitioned from SET to Software Engineer in Feb 2016.",
-        "Integrated E2E functional tests into CI process for several projects.",
-        "Developed conventions for simple and fluent page object models to be consumed by test engineers."
+        "Implemented and maintained the CI/CD pipeline."
       ]
     },
     {
       "company": "Ambit Energy",
-      "position": "Software Developer in Test",
+      "position": "Software Developer",
       "startDate": "2013-10-01",
       "endDate": "2014-06-01",
-      "summary": "As a member of the automation team, I worked closely with the QA team to design and develop a proprietary data driven automated testing tool. I also developed and maintained a number of tools used to automate internal business tasks and maintain test data and configurations.",
+      "summary": "During my contract at Ambit I worked on several projects to support back office administrative and development tasks. I built desktop tools to facilitate repetitive work as well as supporting the rest of the development team in building and configuring new build and test tools.",
       "highlights": [
         "Developed and helped design a modular, menu-and-data-driven, automated test utility called Testify.",
         "Developed Testify modules for interacting with Windows UIs, Web UIs, SQL databases, and REST services.",
         "Integrated with TFS for defect tracking and test case management.",
-        "Served as SME for legacy automated test framework.",
         "Created several utilities to automate common tasks for internal business users."
       ]
     },
@@ -123,21 +118,8 @@
         "Kubernetes",
         "Apache Kafka",
         "React",
-        "ReactiveX"
-      ]
-    },
-    {
-      "name": "Automated Testing",
-      "level": "Master",
-      "keywords": [
-        "Protractor",
-        "Selenium Webdriver",
-        "MS Coded UI",
-        "White Framework",
-        "Jasmine",
-        "MS Test",
-        "Unit, Integration, E2E",
-        "Jest"
+        "ReactiveX",
+        "TDD/BDD"
       ]
     },
     {
@@ -160,6 +142,7 @@
         "Test Case Management",
         "Agile",
         "Scrum",
+        "Kanban",
         "Pivotal Tracker"
       ]
     }
